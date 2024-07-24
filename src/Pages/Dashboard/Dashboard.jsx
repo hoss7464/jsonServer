@@ -10,6 +10,7 @@ const Dashboard = () => {
             <h1>Dashboard page</h1>
             <h3>hello hossein</h3>
             <h3>Mohammad</h3>
+            <h3>Reza</h3>
           </div>
           
         </DashboardWrapper>
