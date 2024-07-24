@@ -1,0 +1,5 @@
+.active-color {
+    background-color: #222649;
+    transition: all 0.2s ease-in-out;
+    color: white !important;
+  }
