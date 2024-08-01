@@ -1,13 +1,5 @@
 {
-  "posts": [
-    {
-      "id": 1722535151510,
-      "firstName": "Hossein",
-      "lastName": "Fathollahi",
-      "address": "khorramAbad",
-      "number": "12345"
-    }
-  ],
+  "posts": [],
   "comments": [
     {
       "id": "1",

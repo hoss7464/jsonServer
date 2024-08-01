@@ -23,6 +23,7 @@ const Dashboard = () => {
   //handleSubmit function :
   const handleSubmit = (e) => {
     e.preventDefault();
+    const newId = Math.floor(Math.random() * 100).toString(); 
     fetch("http://localhost:5000/posts", {
       method: "POST",
       headers: {
@@ -30,7 +31,7 @@ const Dashboard = () => {
       },
       body: JSON.stringify({
         ...listData,
-        id: Date.now(),
+        id: newId,
       }),
     })
       .then((res) => {
