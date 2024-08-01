@@ -1,0 +1,12 @@
+{
+  "posts": [
+    
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Great post!",
+      "postId": 1
+    }
+  ]
+}

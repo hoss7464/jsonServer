@@ -45,6 +45,7 @@ const Register = () => {
   const handleSubmit = (formId, e) => {
     e.preventDefault();
     dispatch(submitForm({ formId, formData: forms[formId] }));
+    console.log(formId)
   };
   //-------------------------------------------------------------------------------
   return (
